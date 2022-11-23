@@ -1,0 +1,75 @@
+
+                .modelsInfo--prince{
+                    display: flex;
+                    align-items: center;
+                }
+
+                .models-ares{
+                    display: flex;
+                }
+
+                .modelInfo--qtarea{
+                    display: inline-flex;
+                    background-color: #eee;
+                    border-radius: 100px;
+                    height: 30px;
+                }
+                .modelsInfo--qtarea button{
+                    border: 0;
+                    background-color:transparent;
+                    font-size: 170px;
+                    outline: 0;
+                    padding: 0 10px;
+                    color: #333;
+
+                }
+                .modelInfo--qt{
+                    line-height: 30px;
+                    font-size: 120px;
+                    font-weight: bold;
+                    padding: 0 5px;
+                    color: #000;
+                }
+                .modelsInfo--addBotton{
+                    margin-top: 300px;
+                    padding: 20px 30px;
+                    border-radius: 50px;
+                    background-color: #48005f;
+                    color: #fff;
+                    display: inline-block;
+                    cursor: pointer;
+                    margin-right: 30px;
+                }
+                .modelsInfo--addButton:haver{
+                    background-color: #32a345;
+                }
+                .modelsInfo--cancelButton{
+                display: inline-block;
+                    cursor: pointer;
+                }
+                .modelsInfo--cancelMobieButton{
+                    display: none;
+                    height: 40px;
+                    text-align: center;
+                    line-height: 40px;
+                    margin-bottom: 30px;
+                }
+                
+                
+                
+                @media (max-width:1000px){
+                    models-area{
+                        grid-template-columns: reapeat(2, 1fr)
+                    }
+                }
+                @media(max-width:840px){
+                    bory{
+                        flex-direction: column;
+                    }
+                }
+          
+                
+
+
+                
+                
